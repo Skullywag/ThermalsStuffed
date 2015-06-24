@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>ThermalsStuffed</name>
+	<author>Skullywag</author>
+	<targetVersion>Alpha 11</targetVersion>
+	<description>Changes vanilla thermal generators so that they can be made with stuff.
+  
+                                    Energy          Health         Flammable         Beauty  
+Steel generator:           3600W           500               20%                  -40
+Silver generator:          4200W           350               20%                  -40
+Gold generator:            5000W          300               20%                  -40
+Plasteel generator:       5200W          1400             10%                  -40
+Uranium generator:      6000W          1250               0%                  -40</description>
+</ModMetaData>
