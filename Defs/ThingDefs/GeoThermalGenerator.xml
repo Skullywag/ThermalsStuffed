@@ -3,6 +3,7 @@
 
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
+    <thingClass>Building</thingClass>
     <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
@@ -19,13 +20,16 @@
     <graphicData>
       <texPath>Things/Building/StuffedGeothermalPlant</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
       <drawSize>(6,6)</drawSize>
+      <damageData>
+        <rect>(0.3,0,5.4,6)</rect>
+      </damageData>
     </graphicData>
     <altitudeLayer>BuildingTall</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
+    <blockLight>true</blockLight>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
@@ -41,14 +45,15 @@
     <costStuffCount>100</costStuffCount>
     <costList>
       <Steel>300</Steel>
+      <Components>8</Components>
     </costList>
     <comps>
-      <li>
+      <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>-3600</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
-        <powerToggleable>false</powerToggleable>
       </li>
+      <li Class="CompProperties_Breakdownable"/>
     </comps>
     <rotatable>false</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -62,7 +67,9 @@
       <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
     <designationHotkey>G</designationHotkey>
-    <researchPrerequisite>GeothermalPower</researchPrerequisite>
+    <researchPrerequisites>
+      <li>GeothermalPower</li>
+    </researchPrerequisites>
   </ThingDef>
 
 </Buildings>
