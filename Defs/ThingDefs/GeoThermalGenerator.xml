@@ -4,7 +4,6 @@
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -16,7 +15,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>GeothermalGenerator</defName>
     <label>geothermal generator</label>
-    <thingClass>ThermalsStuffed.Building_StuffedPowerPlantSteam</thingClass>
+    <thingClass>Building</thingClass>
     <graphicData>
       <texPath>Things/Building/StuffedGeothermalPlant</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -25,11 +24,12 @@
         <rect>(0.3,0,5.4,6)</rect>
       </damageData>
     </graphicData>
-    <altitudeLayer>BuildingTall</altitudeLayer>
+    <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
     <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>1</fillPercent>
     <blockLight>true</blockLight>
+    <blockWind>true</blockWind>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <WorkToMake>6000</WorkToMake>
@@ -45,11 +45,11 @@
     <costStuffCount>100</costStuffCount>
     <costList>
       <Steel>300</Steel>
-      <Components>8</Components>
+      <Component>8</Component>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
+        <compClass>ThermalsStuffed.CompPowerPlantSteam</compClass>
         <basePowerConsumption>-3600</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
@@ -66,7 +66,7 @@
       <soundAmbient>GeothermalPlant_Ambience</soundAmbient>
       <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
-    <designationHotkey>G</designationHotkey>
+    <designationHotkey>Misc6</designationHotkey>
     <researchPrerequisites>
       <li>GeothermalPower</li>
     </researchPrerequisites>
