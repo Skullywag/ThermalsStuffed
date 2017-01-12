@@ -47,7 +47,7 @@ namespace ThermalsStuffed
             base.CompTick();
             if (this.geyser == null)
             {
-                this.geyser = (Building_SteamGeyser)Find.ThingGrid.ThingAt(this.parent.Position, ThingDefOf.SteamGeyser);
+                this.geyser = (Building_SteamGeyser)this.parent.Map.thingGrid.ThingAt(this.parent.Position, ThingDefOf.SteamGeyser);
             }
             if (this.geyser != null)
             {
@@ -57,9 +57,9 @@ namespace ThermalsStuffed
             base.PowerOutput = steamPower;
         }
 
-        public override void PostDeSpawn()
+        public override void PostDeSpawn(Map map)
         {
-            base.PostDeSpawn();
+            base.PostDeSpawn(map);
             if (this.geyser != null)
             {
                 this.geyser.harvester = null;

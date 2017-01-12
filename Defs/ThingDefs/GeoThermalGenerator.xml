@@ -32,7 +32,7 @@
     <blockWind>true</blockWind>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
-      <WorkToMake>6000</WorkToMake>
+      <WorkToBuild>6000</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
