@@ -12,9 +12,9 @@ namespace ThermalsStuffed
 
         private float steamPower;
 
-        public override void PostSpawnSetup()
+        public override void PostSpawnSetup(bool respawningAfterLoad)
         {
-            base.PostSpawnSetup();
+            base.PostSpawnSetup(respawningAfterLoad);
             this.steamSprayer = new IntermittentSteamSprayer(this.parent);
             if (this.parent.def.MadeFromStuff)
             {

@@ -64,3 +64,14 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThermalsStuffed-A16\
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThermalsStuffed-A16\Source\ThermalsStuffed\obj\Debug\ThermalsStuffed.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThermalsStuffed-A16\Source\ThermalsStuffed\obj\Debug\ThermalsStuffed.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThermalsStuffed-A16\Source\ThermalsStuffed\obj\Debug\ThermalsStuffed.pdb
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\ThermalsStuffed.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\ThermalsStuffed.pdb
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\Assembly-CSharp.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\UnityEngine.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\NAudio.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\NVorbis.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\bin\Debug\UnityEngine.xml
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\obj\Debug\ThermalsStuffed.csprojResolveAssemblyReference.cache
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\obj\Debug\ThermalsStuffed.dll
+C:\Users\mjsku\Desktop\RimWorldAlpha17bWin\RimWorld1557Win\Mods\ThermalsStuffed\Source\ThermalsStuffed\obj\Debug\ThermalsStuffed.pdb
